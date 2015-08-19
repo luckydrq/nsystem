@@ -1,0 +1,21 @@
+{
+  "name": "nsystem",
+  "version": "0.0.1",
+  "description": "Implementation of System Class in java",
+  "keywords": [
+    "system"
+  ],
+  "maintainers": [
+    {
+      "name": "luckdrq",
+      "email": "drqzju@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luckydrq/nsystem.git"
+  },
+  "dependencies": {
+    "core-util-is": "^1.0.1"
+  }
+}
