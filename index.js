@@ -16,13 +16,13 @@ exports.getenv = function(name) {
   }
 };
 
-const OS_NAME = getOSname();
-const OS_ARCH = os.arch();
-const USER_NAME = process.env.USER;
-const USER_HOME = process.env.HOME;
-const USER_DIR = process.env.PWD;
-const NODE_VERSION = process.versions.node;
-const FILE_SEPARATOR = path.sep;
+var OS_NAME = getOSname();
+var OS_ARCH = os.arch();
+var USER_NAME = process.env.USER;
+var USER_HOME = process.env.HOME;
+var USER_DIR = process.env.PWD;
+var NODE_VERSION = process.versions.node;
+var FILE_SEPARATOR = path.sep;
 
 var SYSTEM_PROPERTIES = {
   'os.name': OS_NAME,
